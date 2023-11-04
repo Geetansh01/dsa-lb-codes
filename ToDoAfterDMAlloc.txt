@@ -1,0 +1,4 @@
+1)Do 3 things after Dynamic Memory Allocation Chapter:
+    1)void pointers
+    2)wild pointers 
+    3)dynamic pointers
