@@ -253,6 +253,8 @@ a lot of time being wasted wondering why the code is not working
       L111 : N Queens [LeetCode : https://leetcode.com/problems/n-queens/description/]
       L112 : 1)Generate Parentheses [LeetCode : https://leetcode.com/problems/generate-parentheses/description/ ]
              2)Letter Combinations of a Phone Number [LeetCode : https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/]
+      L_ImaginaryW6 : 
+            1)Sudoku Solver [LeetCode : https://leetcode.com/problems/sudoku-solver/description/]
             
 
             
