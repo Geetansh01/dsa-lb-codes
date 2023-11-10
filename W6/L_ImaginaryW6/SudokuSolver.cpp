@@ -3,8 +3,9 @@
 using namespace std;
 
 /*********************Sudoku Solver [LeetCode : https://leetcode.com/problems/sudoku-solver/description/]********************************/
-//TC : Exponential (O(9^m) ; m = No of Empty Cells)
-//SC : O(1) ; Max depth in call stack can be 81 for a 9x9 sudoku when all the cells are empty
+//SC and TC (Calculation similar to "L110 Rat in a Maze")
+//TC : Exponential O(9^(m)) ; m = Total No of Empty Cells (Max 81 cells ca be empty for Sudoku)
+//SC : O(m) ; (Max depth in call stack can be 81 for a 9x9 sudoku when all the cells are empty)
 bool isSafe(int i, int j, char digit, vector<vector<char>>& board){
     //Check whole row for "digit"
     for(int col = 0; col < 9; col++){

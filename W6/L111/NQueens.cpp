@@ -6,6 +6,10 @@ using namespace std;
 /*********************N Queens [LeetCode : https://leetcode.com/problems/n-queens/description/]****************************/
 //Logic same but minor changes to below code while submitting on leetcode (as it's not asking to print the solution but return a " vector<vector<string>> ")
 
+//For TC/SC see L113
+//TC : O(n^n) (or O(n!) ) ; n = dimension of chess board 
+//SC : (n*n)
+
 void printSolution(vector<vector<char> >& board, int n){
     for(int  i = 0; i < n; i++){
         for(int j = 0; j < n; j++){

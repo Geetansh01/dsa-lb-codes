@@ -3,7 +3,8 @@
 using namespace std;
 
 /************************Rat in a Maze Problem - I[GFG : https://practice.geeksforgeeks.org/problems/rat-in-a-maze-problem/1]******************************************/
-//TC : 4^n (Exponential)
+//TC : O(4^(m*n)) (m and n are the dimensions of the maze) (Exponential)
+//SC : O(m*n)
     bool isSafe(int x, int y, int row, int col, vector<vector<int>> &arr, vector<vector<bool> > &visited){
         if(((x >= 0 && x <  row) && (y >= 0 && y <  col)) && (arr[x][y] == 1) && (visited[x][y] == false)){
             return true;

@@ -4,6 +4,9 @@ using namespace std;
 
 /*****************Letter Combinations of a Phone Number [LeetCode : https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/]*************************************/
 
+//TC : O(4^N) ; N = no of digits in input string (eg: "231" has N = 3)
+//SC : O(4^N)
+
 void solveHelper(vector<string>& phone_keys, vector<string> &ans, string output, string &digits, int i){
     //Base Case
     if(i >= digits.size()){
