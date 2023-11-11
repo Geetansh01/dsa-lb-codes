@@ -255,6 +255,8 @@ a lot of time being wasted wondering why the code is not working
              2)Letter Combinations of a Phone Number [LeetCode : https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/]
       L_ImaginaryW6 : 
             1)Sudoku Solver [LeetCode : https://leetcode.com/problems/sudoku-solver/description/]
+      V114-122 : HW Ques
+            1)Q114 : Counting Inversions [Hackerrank : https://www.hackerrank.com/challenges/ctci-merge-sort/problem]
             
 
             
