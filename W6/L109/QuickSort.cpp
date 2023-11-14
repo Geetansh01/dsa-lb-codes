@@ -4,7 +4,7 @@ using namespace std;
 int partition(int* arr, int s, int e){
     //step1 : choose pivot element
     int pivotIndex = s;
-    int pivotElement = s;
+    int pivotElement = arr[s];
 
     //Step2 : Find right position for pivot element and place pivot there
     int count = 0;
