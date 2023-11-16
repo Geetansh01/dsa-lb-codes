@@ -264,4 +264,4 @@ a lot of time being wasted wondering why the code is not working
             5)V118 : Combination Sum [LeetCode : https://leetcode.com/problems/combination-sum/description/] (code not saved locally it's simple Backtracking)
             6)V119 : Combination Sum II [LeetCode : https://leetcode.com/problems/combination-sum-ii/description/]
             7)V120 : Permutation - II[LeetCode : https://leetcode.com/problems/permutations-ii/description/]
-            
+            8)V121 : Beautiful Arrangement [LeetCode : https://leetcode.com/problems/beautiful-arrangement/description/]
