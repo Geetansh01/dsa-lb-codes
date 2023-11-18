@@ -266,3 +266,10 @@ a lot of time being wasted wondering why the code is not working
             7)V120 : Permutation - II[LeetCode : https://leetcode.com/problems/permutations-ii/description/]
             8)V121 : Beautiful Arrangement [LeetCode : https://leetcode.com/problems/beautiful-arrangement/description/]
             9)V122 : Distribute Repeating Integers [LeetCode : https://leetcode.com/problems/distribute-repeating-integers/description/]
+
+
+/**********************Week 8**************************************/
+      L136 : LL (using class ofcourse)
+             1)Intro and Printing SLL
+             2)Creation and Insertion in singly LL
+             3)Deletion in SLL
