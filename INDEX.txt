@@ -285,3 +285,5 @@ a lot of time being wasted wondering why the code is not working
              
              4)Detect and Delete Loop type questions [Interview]:
                   1)Detect Loop
+                  2)Find Starting of Loop
+                  3)Remove Loop
