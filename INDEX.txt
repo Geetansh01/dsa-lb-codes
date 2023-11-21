@@ -287,3 +287,9 @@ a lot of time being wasted wondering why the code is not working
                   1)Detect Loop
                   2)Find Starting of Loop
                   3)Remove Loop
+      L139 : 1)Check if given SLL is Palindrome
+             2)Remove duplicates from a sorted SLL
+             3)Sort 0's , 1's, 2's in SLL :
+                  1)Replacing Data in SLL Allowed
+                  2)Replacing Data in SLL NOT Allowed [Interview]
+             4)Add 2 numbers represented by SLL [Interview]
