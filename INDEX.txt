@@ -288,8 +288,13 @@ a lot of time being wasted wondering why the code is not working
                   2)Find Starting of Loop
                   3)Remove Loop
       L139 : 1)Check if given SLL is Palindrome
-             2)Remove duplicates from a sorted SLL
-             3)Sort 0's , 1's, 2's in SLL :
+                  2)Remove duplicates from a sorted SLL
+                  3)Sort 0's , 1's, 2's in SLL :
                   1)Replacing Data in SLL Allowed
                   2)Replacing Data in SLL NOT Allowed [Interview]
-             4)Add 2 numbers represented by SLL [Interview]
+                  4)Add 2 numbers represented by SLL [Interview]
+      V140-149_HWQues : HW Ques (Some are very easy so code not saved locally for all)
+            1)Q140 : Print Kth Node From The End [Hackerrank : https://www.hackerrank.com/challenges/get-the-value-of-the-node-at-a-specific-position-from-the-tail/problem]
+            2)Q141 : Intersection Of 2 Link Lists [LeetCode : https://leetcode.com/problems/intersection-of-two-linked-lists/description/]
+             (Code saved Locally)
+             
