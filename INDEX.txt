@@ -297,4 +297,6 @@ a lot of time being wasted wondering why the code is not working
             1)Q140 : Print Kth Node From The End [Hackerrank : https://www.hackerrank.com/challenges/get-the-value-of-the-node-at-a-specific-position-from-the-tail/problem]
             2)Q141 : Intersection Of 2 Link Lists [LeetCode : https://leetcode.com/problems/intersection-of-two-linked-lists/description/]
              (Code saved Locally)
+            3)Q142 : Merge Two Sorted Lists [LeetCode : https://leetcode.com/problems/merge-two-sorted-lists/description/]
+            4)Q143 : Sort List Using Merge Sort[leetCode : https://leetcode.com/problems/sort-list/description/]
              
