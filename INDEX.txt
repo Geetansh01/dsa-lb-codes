@@ -301,4 +301,6 @@ a lot of time being wasted wondering why the code is not working
             4)Q143 : Sort List Using Merge Sort[leetCode : https://leetcode.com/problems/sort-list/description/]
             5)Q144 : Flatten Linked List [GFG : https://www.geeksforgeeks.org/problems/flattening-a-linked-list/1]
             6)Q145 : Copy List with Random Pointer [LeetCode : https://leetcode.com/problems/copy-list-with-random-pointer/submissions/]
+            7)Q146 : Rotate List [LeetCode : https://leetcode.com/problems/rotate-list/description/]
+            8)Q147 : Delete N Nodes After M Nodes [GFG : https://practice.geeksforgeeks.org/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/1]
              
