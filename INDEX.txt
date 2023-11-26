@@ -303,4 +303,5 @@ a lot of time being wasted wondering why the code is not working
             6)Q145 : Copy List with Random Pointer [LeetCode : https://leetcode.com/problems/copy-list-with-random-pointer/submissions/]
             7)Q146 : Rotate List [LeetCode : https://leetcode.com/problems/rotate-list/description/]
             8)Q147 : Delete N Nodes After M Nodes [GFG : https://practice.geeksforgeeks.org/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/1]
-             
+            9)Q148 : Find minmax number between critical points [LeetCode : https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/submissions/kf]
+            10)Q149 : Merge Nodes In Between Zeros [LeetCode : https://leetcode.com/problems/merge-nodes-in-between-zeros/description/]
