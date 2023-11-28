@@ -305,3 +305,14 @@ a lot of time being wasted wondering why the code is not working
             8)Q147 : Delete N Nodes After M Nodes [GFG : https://practice.geeksforgeeks.org/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/1]
             9)Q148 : Find minmax number between critical points [LeetCode : https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/submissions/kf]
             10)Q149 : Merge Nodes In Between Zeros [LeetCode : https://leetcode.com/problems/merge-nodes-in-between-zeros/description/]
+      LImaginaryW8 :
+            1)Remove Duplicates From an Unsorted Linked List [Coding Ninjas : https://www.codingninjas.com/studio/problems/remove-duplicates-from-unsorted-linked-list_1069331]
+            (Code Not Saved Locally, see soln on Love Babbar YT)
+
+/**********************Week 9**************************************/
+      L150 : Stack Intro      
+             1)STL Stack
+             2)Your own implementation of stack
+             3)2 Stacks in an Array
+             4)Reverse String Using Stack
+             5)Middle Element Of Stack 
