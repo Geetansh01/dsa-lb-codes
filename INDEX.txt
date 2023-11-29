@@ -316,3 +316,8 @@ a lot of time being wasted wondering why the code is not working
              3)2 Stacks in an Array
              4)Reverse String Using Stack
              5)Middle Element Of Stack 
+      L151 : 1)Insert Element at bottom of Stack
+             2)Reverse a Stack
+             3)ValidParenthesis [Interview] [Leetcode : https://leetcode.com/problems/valid-parentheses/description/]
+             4)Sort a Stack
+             5)Remove Redundant Brackets (HomeWork)
