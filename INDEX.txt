@@ -320,4 +320,11 @@ a lot of time being wasted wondering why the code is not working
              2)Reverse a Stack
              3)ValidParenthesis [Interview] [Leetcode : https://leetcode.com/problems/valid-parentheses/description/]
              4)Sort a Stack
-             5)Remove Redundant Brackets (HomeWork)
+             5)Remove Redundant Brackets (This was given as HomeWork) [Coding Ninjas : https://www.codingninjas.com/studio/problems/redundant-brackets_975473?leftPanelTabValue=PROBLEM]
+                  ----->There is another relatively difficult version of this prblm on GFG (I hv not done that yet)
+      L152 : 1)Min Stack [LeetCode : https://leetcode.com/problems/min-stack/]
+             2)Longest Valid Parentheses [Interview] [LeetCode : https://leetcode.com/problems/longest-valid-parentheses/description/]
+             ----->Code Not saved Locally but explained in notebook.
+             3)Next And Prev Smaller Element using Stack
+             4)Largest Rectangular Area in a histogram [Interview][LeetCode : https://leetcode.com/problems/largest-rectangle-in-histogram/description/]
+                  
