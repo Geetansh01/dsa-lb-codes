@@ -327,4 +327,10 @@ a lot of time being wasted wondering why the code is not working
              ----->Code Not saved Locally but explained in notebook.
              3)Next And Prev Smaller Element using Stack
              4)Largest Rectangular Area in a histogram [Interview][LeetCode : https://leetcode.com/problems/largest-rectangle-in-histogram/description/]
+      V153-164_HWQues : HW Ques (Some are very easy so code not saved locally for all)
+            1)Q153 : Remove All Adjacent Duplicates In String [LeetCode : https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/]
+            2)Q154 : Minimum Bracket Reversal [GFG : https://practice.geeksforgeeks.org/problems/count-the-reversals0401/1]
+             ------->Code saved locally for Q154.
+
+
                   
