@@ -333,6 +333,6 @@ a lot of time being wasted wondering why the code is not working
              ------->Code saved locally for Q154.
             3)Q155 : Next Greater Element In LL [LeetCode : https://leetcode.com/problems/next-greater-node-in-linked-list/description/]
             4)Q156 : Celebrity Problem [Interview][GFG : https://practice.geeksforgeeks.org/problems/the-celebrity-problem/1]
-
+      V157 : N Stacks in an Array [Interview]
 
                   
