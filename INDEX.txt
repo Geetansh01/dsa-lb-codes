@@ -335,5 +335,6 @@ a lot of time being wasted wondering why the code is not working
             4)Q156 : Celebrity Problem [Interview][GFG : https://practice.geeksforgeeks.org/problems/the-celebrity-problem/1]
       V157 : N Stacks in an Array [Interview]
             5)Q158 : Online Stock Span [LeetCode : https://leetcode.com/problems/online-stock-span/description/]
+            6)Q159 : Simplify Path[LeetCode : https://leetcode.com/problems/simplify-path/description/]
 
                   
