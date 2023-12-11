@@ -343,4 +343,12 @@ a lot of time being wasted wondering why the code is not working
             10)Q163 : Car Fleet [LeetCode : https://leetcode.com/problems/car-fleet/description/]
             11)Q164 : Car Fleet2 [LeetCode : https://leetcode.com/problems/car-fleet-ii/description/]
 
+/**********************Week 10**************************************/
+      L165 : 1)Queue Basics Intro
+             2)STL Queue
+             3)Your own queue class
+             4)Circular Queue
+             5)Input/output restricted queue (brief mention)
+             5)Deque
+
                   
