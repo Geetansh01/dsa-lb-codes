@@ -350,5 +350,11 @@ a lot of time being wasted wondering why the code is not working
              4)Circular Queue
              5)Input/output restricted queue (brief mention)
              5)Deque
+      L166 : 1)Reverse A Queue
+                  1)Using Stack
+                  2)Using Recursion
+             2)Reverse First K elements of Queue
+             3)Interleave First and Scond half of Queue
+             4)Sliding Window [Interview] [Coding Ninjas : https://www.codingninjas.com/studio/problems/first-negative-integer-in-every-window-of-size-k_1164406?leftPanelTabValue=PROBLEM]
 
                   
