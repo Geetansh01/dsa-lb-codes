@@ -2,7 +2,7 @@
 #include<queue>
 using namespace std;
 
-/********Sliding Window [Interview] [Coding Ninjas : https://www.codingninjas.com/studio/problems/first-negative-integer-in-every-window-of-size-k_1164406?leftPanelTabValue=PROBLEM]*********/
+/********First Negative Integer In Every Window Of Size K [Interview] [Coding Ninjas : https://www.codingninjas.com/studio/problems/first-negative-integer-in-every-window-of-size-k_1164406?leftPanelTabValue=PROBLEM]*********/
 
 //TC : O(n + k)
 //SC : O(k)
