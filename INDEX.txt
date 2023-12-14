@@ -358,4 +358,8 @@ a lot of time being wasted wondering why the code is not working
              4)First Negative Integer In Every Window Of Size K [Interview] [Sliding Window] [Coding Ninjas : https://www.codingninjas.com/studio/problems/first-negative-integer-in-every-window-of-size-k_1164406?leftPanelTabValue=PROBLEM]
       L167 : 1)First Non Repeating Character in A Stream [Interview] [GFG : https://practice.geeksforgeeks.org/problems/first-non-repeating-character-in-a-stream1216/1]
              2)Gas Station [Interview] [LeetCode : https://leetcode.com/problems/gas-station/description/]
-                   
+             3)Sliding Window Maximum [Sliding Window] [LeetCode : https://leetcode.com/problems/sliding-window-maximum/description/]
+      V168-171_HWQues : HW Ques
+            1)Q168 : Implement Queue using Stacks [Interview] [LeetCode : https://leetcode.com/problems/implement-queue-using-stacks/description/]
+
+      
