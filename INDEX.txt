@@ -369,3 +369,19 @@ a lot of time being wasted wondering why the code is not working
       VImaginary : Maximum Number of Tasks You Can Assign [LeetCode : https://leetcode.com/problems/maximum-number-of-tasks-you-can-assign/description/]
                    --->Ques given by lb in class, but no solution video (even on yt)
                    --->Solution Reference : https://algo.monster/liteproblems/2071
+
+/**********************Week 12**************************************/
+      [Course Bought here!] 
+      [Week 12 according to official site]
+      [L/V numbers still according to local saved vids]
+      L172 : 1)Trees Intro
+             2)Basic terminologies 
+             3)Implementing trees (using Recursion) 
+             4)Tree Traversals:
+                  1)PreOrder
+                  2)InOrder
+                  3)PostOrder
+                  4)Level Order Traversal
+             5)Maximum Depth of Binary Tree [Interview] [LeetCode : https://leetcode.com/problems/maximum-depth-of-binary-tree/description/]
+              ---> Easy question, code not saved locally
+             6)Diameter of Binary Tree [Interview] [LeetCode : https://leetcode.com/problems/diameter-of-binary-tree/description/]
