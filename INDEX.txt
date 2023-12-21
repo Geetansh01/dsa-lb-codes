@@ -398,5 +398,11 @@ a lot of time being wasted wondering why the code is not working
                   6)Make Tree Given Traversals: [Interview]
                         1)Given PreOrder & Inorder, make tree
                         2)Given PostOrder & Inorder, make tree
+      L174 : 1)Views of Binary tree
+                  1)Left View
+                  1)Right View
+                  1)Top View
+                  1)Bottom View
+             2)Boundary Traversal of binary tree [GFG : https://practice.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1?track=Placement]
                   
                   
