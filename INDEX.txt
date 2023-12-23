@@ -386,7 +386,7 @@ a lot of time being wasted wondering why the code is not working
               ---> Easy question, code not saved locally
              6)Diameter of Binary Tree [Interview] [LeetCode : https://leetcode.com/problems/diameter-of-binary-tree/description/]
                   1)Done Top to Down apprach [poor TC]
-                  2)bottomm to Up approach done later [Better TC]
+                  2)bottomm to Up approach done later [See V176]
       L173 : 1)Balanced Binary Tree [LeetCode : https://leetcode.com/problems/balanced-binary-tree/description/]
                   1)Done Top to Down apprach [poor TC]
                   2)bottomm to Up approach done later [Better TC]
@@ -406,13 +406,14 @@ a lot of time being wasted wondering why the code is not working
              2)Boundary Traversal of binary tree [GFG : https://practice.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1?track=Placement]
       LImaginaryW12 : Left Out Topics of 2.0 Done from 1.0
             1)Check if given BT is Sum Tree or Not [GFG : https://practice.geeksforgeeks.org/problems/sum-tree/1]
+            2)Kth Ancestor in a Tree [GFG : https://practice.geeksforgeeks.org/problems/kth-ancestor-in-a-tree/1]
             -----MORE------
       V175-183 : HW Questions [Done from local saved vids]
             1)V175 : Morris Traversal [Interview]
                   ----> Not in local saved vids, done from official site (batch 2.0)
                   ---->To Be Done
-            2)V176 : FW To Find Diameter
-            ...
+            2)V176 : Fast Way To Find Diameter [LeetCode : https://leetcode.com/problems/diameter-of-binary-tree/submissions/]
+                  ---->Bottom to Up Approach
             3)V181 : Transform To Sum Tree [GFG : https://practice.geeksforgeeks.org/problems/transform-to-sum-tree/1]
 
                   
