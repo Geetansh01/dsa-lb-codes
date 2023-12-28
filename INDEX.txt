@@ -414,7 +414,14 @@ a lot of time being wasted wondering why the code is not working
                   ---->To Be Done
             2)V176 : Fast Way To Find Diameter [LeetCode : https://leetcode.com/problems/diameter-of-binary-tree/submissions/]
                   ---->Bottom to Up Approach
-            3)V181 : Transform To Sum Tree [GFG : https://practice.geeksforgeeks.org/problems/transform-to-sum-tree/1]
+            3)V177 : FW To Find Height Balanced Tree [LeetCode : https://leetcode.com/problems/balanced-binary-tree/submissions/]
+                  ---->Bottom to Up Approach
+            4)V178 : Two Trees Mirror OR Identical (2 different LeetCode Easy Questions)
+                  1)Same Tree [LeetCode : https://leetcode.com/problems/same-tree/description/]
+                  2)Symmetric Tree [LeetCode : https://leetcode.com/problems/symmetric-tree/description/]
+                  ---->Code not saved locally
+            10000)V181 : Transform To Sum Tree [GFG : https://practice.geeksforgeeks.org/problems/transform-to-sum-tree/1]
+            
 
                   
                   
