@@ -409,9 +409,8 @@ a lot of time being wasted wondering why the code is not working
             2)Kth Ancestor in a Tree [GFG : https://practice.geeksforgeeks.org/problems/kth-ancestor-in-a-tree/1]
             -----MORE------
       V175-183 : HW Questions [Done from local saved vids]
-            1)V175 : Morris Traversal [Interview]
+            1)V175 : Morris Traversal [Interview] [LeetCode : https://leetcode.com/problems/binary-tree-inorder-traversal/submissions/]
                   ----> Not in local saved vids, done from official site (batch 2.0)
-                  ---->To Be Done
             2)V176 : Fast Way To Find Diameter [LeetCode : https://leetcode.com/problems/diameter-of-binary-tree/submissions/]
                   ---->Bottom to Up Approach
             3)V177 : FW To Find Height Balanced Tree [LeetCode : https://leetcode.com/problems/balanced-binary-tree/submissions/]
