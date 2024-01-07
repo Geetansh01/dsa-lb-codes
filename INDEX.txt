@@ -407,7 +407,6 @@ a lot of time being wasted wondering why the code is not working
       LImaginaryW12 : Left Out Topics of 2.0 Done from 1.0
             1)Check if given BT is Sum Tree or Not [GFG : https://practice.geeksforgeeks.org/problems/sum-tree/1]
             2)Kth Ancestor in a Tree [GFG : https://practice.geeksforgeeks.org/problems/kth-ancestor-in-a-tree/1]
-            -----MORE------
       V175-183 : HW Questions [Done from local saved vids]
             1)V175 : Morris Traversal [Interview] [LeetCode : https://leetcode.com/problems/binary-tree-inorder-traversal/submissions/]
                   ----> Not in local saved vids, done from official site (batch 2.0)
@@ -424,6 +423,10 @@ a lot of time being wasted wondering why the code is not working
             7)V181 : Transform To Sum Tree [GFG : https://practice.geeksforgeeks.org/problems/transform-to-sum-tree/1]
             8)V182 : Vertical Order Traversal [LeetCode : https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/description/]
             9)V183 : K-Sum Paths (Path Sum III) [LeetCode : https://leetcode.com/problems/path-sum-iii/description/]
+
+      More Questions[Not saved locally, done from official site]:
+            10)Sum of nodes on the longest path from root to leaf node [GFG : https://www.geeksforgeeks.org/problems/sum-of-the-longest-bloodline-of-a-tree/1]
+                  ---->Easy Level, code not saved locally
             
 
                   
