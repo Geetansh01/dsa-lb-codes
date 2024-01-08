@@ -425,8 +425,11 @@ a lot of time being wasted wondering why the code is not working
             9)V183 : K-Sum Paths (Path Sum III) [LeetCode : https://leetcode.com/problems/path-sum-iii/description/]
 
       More Questions[Not saved locally, done from official site]:
-            10)Sum of nodes on the longest path from root to leaf node [GFG : https://www.geeksforgeeks.org/problems/sum-of-the-longest-bloodline-of-a-tree/1]
+            10)V183_1 : Sum of nodes on the longest path from root to leaf node [GFG : https://www.geeksforgeeks.org/problems/sum-of-the-longest-bloodline-of-a-tree/1]
                   ---->Easy Level, code not saved locally
+            11)V183_2 : Maximum sum of Non-adjacent nodes [GFG : https://www.geeksforgeeks.org/problems/maximum-sum-of-non-adjacent-nodes/1]
+                  ---->Code saved Locally
+            
             
 
                   
