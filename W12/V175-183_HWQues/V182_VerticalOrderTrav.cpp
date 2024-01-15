@@ -46,23 +46,14 @@ vector<vector<int>> verticalTraversal(TreeNode* root) {
     while(!q.empty()){
         Triplet temp = q.front();
         q.pop();
-        if(mp.find(temp.VL) == mp.end()){
-            vector<Triplet> tempV = {};
-            pair<int, vector<Triplet> > p = {temp.VL, tempV}; //line (1)
-            mp.insert(p); //line (2)
 
-            // mp[temp.VL] = tempV; //line (3)
-
-            /*
-                [A] line(3) can be used instead of (1) & (2) but that would be slightly less efficient. (Runtime goes from 7ms to 3ms on leetCode)
-                
-                [B] Why? (from chatGPT): using "insert", the map performs a single lookup to determine if the key exists, and if not, it directly inserts the new key-value pair. On the other hand, using the square bracket operator involves two lookups: one to check existence and another to perform the assignment.
-
-            */
-
+        auto reference = mp[temp.VL]; //line (1)
+        if(reference.empty()){
+            //Means "temp.VL" key was not found in map. So a default value (Here, an empty vector<Triplet> vector) was inserted for this key as we used "[]" operator in line (1)
             mp[temp.VL].push_back(temp);
         }
         else{
+            //Means "temp.VL" key was already present in the map
             mp[temp.VL].push_back(temp);
             int level = temp.VL;
             int i = mp[level].size()-1;

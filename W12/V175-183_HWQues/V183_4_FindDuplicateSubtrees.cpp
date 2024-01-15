@@ -26,6 +26,11 @@ string encodeTree(TreeNode* root){
     string l = encodeTree(root->left);
     string r = encodeTree(root->right);
     string encodedStr = to_string(root->val) + "," + l + "," + r;
+
+    //Below, I am repeatedly using find(), [] operator, insert() for better readability. But if we consider the worst case TC for insertion/look-up in unordered_map (i.e TC:O(n) ; n being the size of unordered_map) then this is a wastage.
+
+    //See how to efficiently do what is done below in "V182 : Vertical Order Traversal" (Note that a ordered map is used there! So optimization there was a must as Average case there is not o(1)!)
+    
     if(mp.find(encodedStr) != mp.end()){
         if(mp[encodedStr] == 1){
             ans.push_back(root);
