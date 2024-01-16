@@ -434,6 +434,13 @@ a lot of time being wasted wondering why the code is not working
             13)V183_4 : Find Duplicate Subtrees [LeetCode : https://leetcode.com/problems/find-duplicate-subtrees/description/]
                   ---->Code saved Locally
 
+/**********************Week 13**************************************/
+      [L/V numbers still according to local saved vids]
+      L184 : 1)Intro to BST
+             2)MakingBST using RE
+             3)Finding min/max value from BST
+             4)Delete a Node from BST
+
 
 
                   
