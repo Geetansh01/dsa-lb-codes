@@ -440,6 +440,11 @@ a lot of time being wasted wondering why the code is not working
              2)MakingBST using RE
              3)Finding min/max value from BST
              4)Delete a Node from BST
+      L185 : 1)Make Balanced BST from Inorder traversal
+             2)Validate Binary Search Tree [LeetCode  : https://leetcode.com/problems/validate-binary-search-tree/description/]
+             3)Lowest Common Ancestor of a Binary Search Tree [LeetCode : https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/]
+             4)Two Sum IV - Input is a BST [LeetCode : https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/]
+                  1)PreReq : Two Sum II - Input Array Is Sorted [LeetCode : https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/]
 
 
 
