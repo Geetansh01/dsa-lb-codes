@@ -1,4 +1,7 @@
 #include<iostream>
+using namespace std;
+
+#include<iostream>
 #include<queue>
 using namespace std;
 
@@ -17,22 +20,28 @@ class Node{
 
 /*************************MAIN FUNCTION IS THIS***********************************/
 
-//This Func tries to makes a Height balanced BST from given inorder traversal
-Node* makeBalncedBSTInorder(vector<int>& v, int s, int e){
+void convertBST2SortedDLL(Node* root, Node*& head){
     //Base Case
-    if(s > e) return NULL;
+    if(root == NULL){
+        return;
+    }
 
-    //1 Case Hm
-    int mid = s + (e-s)/2;
-    Node* root = new Node(v[mid]);
+    //LNR -> NRL
+    //R : Right subTree into DLL
+    convertBST2SortedDLL(root->right, head);
 
-    //Baki Recursion
-    root->left = makeBalncedBSTInorder(v, s, mid-1);
-    root->right = makeBalncedBSTInorder(v, mid+1, e);
-    return root;
+    //Attach root to head
+    root->right = head;
+    if(head !=  NULL){
+        head->left = root;
+    }
+
+    //Update head
+    head = root;
+
+    //L : left subtree to DLL
+    convertBST2SortedDLL(root->left, head);
 }
-
-
 
 /*************************HELPER CODE STARTS HERE***********************************/
 
@@ -103,11 +112,29 @@ void LevelOrder(Node* root){
 }
 
 
-int main(){
-    vector<int> inorder = {10, 20, 30, 40, 50, 60, 70};
-    Node* root = makeBalncedBSTInorder(inorder, 0, inorder.size()-1);
+//PrintDll
+void printDLL(Node*& head){
+    Node* temp = head;
+    while(temp != NULL){
+        cout<<temp->data<<" ";
+        temp = temp->right;
+    }
+    cout<<endl;
+}
 
+int main(){
+    //5 2 1 4 8 7 10 -1
+
+    Node* root = createBST();
+    
+    cout<<"LevelOrder : "<<endl;
     LevelOrder(root);
 
-    return 0;
+    Node* head = NULL;
+    convertBST2SortedDLL(root, head);
+
+    cout<<"Printing Sorted DLL:";
+    printDLL(head);
+
+return 0;
 }
