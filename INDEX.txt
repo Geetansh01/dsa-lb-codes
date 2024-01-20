@@ -449,6 +449,12 @@ a lot of time being wasted wondering why the code is not working
              1)BST to Sorted Doubly Linked List
              2)Sorted DLL to balanced BST 
              3)Largest BST in a Binary Tree [GFG : https://www.geeksforgeeks.org/problems/largest-bst/1]
+      L186_1 to L186_12 : BST HW Questions
+            1)QL186_1 : Inorder Successor in BST [GFG : https://www.geeksforgeeks.org/problems/inorder-successor-in-bst/1]
+            2)QL186_2 : Inorder Predecessor of Node in BST [work@tech : https://workat.tech/problem-solving/practice/inorder-predecessor-bst]
+                  ---->Code not saved locally, similar to "QL186_1"
+             
+
              
 
 
