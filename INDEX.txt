@@ -459,7 +459,10 @@ a lot of time being wasted wondering why the code is not working
                   2)Actual Solution to Question
             5)V186_5 : Balance a Binary Search Tree [LeetCode : https://leetcode.com/problems/balance-a-binary-search-tree/description/]
             6)V186_6 : Median of BST [GFG : https://www.geeksforgeeks.org/problems/median-of-bst/1]
-            7)V187_7 : Check whether BST contains Dead End [GFG : https://www.geeksforgeeks.org/problems/check-whether-bst-contains-dead-end/0]
+            7)V186_7 : Check whether BST contains Dead End [GFG : https://www.geeksforgeeks.org/problems/check-whether-bst-contains-dead-end/0]
+            8)V186_8 : Range Sum of BST [LeetCode : https://leetcode.com/problems/range-sum-of-bst/description/]
+            9)V186_9 : Flatten BST to sorted list [GFG : https://www.geeksforgeeks.org/flatten-bst-to-sorted-list-increasing-order/]
+                  ----> No online judge, just the GFG Article
 
 
             
