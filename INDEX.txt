@@ -463,6 +463,7 @@ a lot of time being wasted wondering why the code is not working
             8)V186_8 : Range Sum of BST [LeetCode : https://leetcode.com/problems/range-sum-of-bst/description/]
             9)V186_9 : Flatten BST to sorted list [GFG : https://www.geeksforgeeks.org/flatten-bst-to-sorted-list-increasing-order/]
                   ----> No online judge, just the GFG Article
+            10)V186_10 : Replace every element with the least greater element on its right [GFG : https://www.geeksforgeeks.org/problems/replace-every-element-with-the-least-greater-element-on-its-right/1]
 
 
             
