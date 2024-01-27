@@ -1,11 +1,11 @@
 #include<iostream>
 #include<vector>
+#include<limits.h>
 using namespace std;
 
 /****V186_3 : Construct Binary Search Tree from Preorder Traversal [LeetCode : https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/description/]*****/
 
 //M3: Best Way (TC: O(n))
-//My own Solution below :)
 
 // Definition for a binary tree node.
 struct TreeNode {
@@ -18,32 +18,24 @@ struct TreeNode {
 };
 
 
-TreeNode* helperRE(int start, int end, vector<int>& preorder){
-    //Base Case
-    if(start > end) return NULL;
+TreeNode* buildRE(int& i, int min, int max, vector<int>& preorder){
+    //BC
+    if(i >= preorder.size()) return NULL;
 
-    //Make Node
-    TreeNode* root = new TreeNode(preorder[start]);
-
-    int i = start+1;
-    while(i <= end && preorder[i] < preorder[start]){
-        i++;
+    TreeNode* root = NULL;
+    if(preorder[i] > min && preorder[i] < max){
+        root = new TreeNode(preorder[i++]);
+        root->left = buildRE(i, min, root->val, preorder);
+        root->right = buildRE(i, root->val, max, preorder);
     }
-
-    //Make left subtree
-    root->left = helperRE(start+1, i-1, preorder);
-
-    //Make right subtree
-    root->right = helperRE(i, end, preorder);
 
     return root;
 }
 
 TreeNode* bstFromPreorder(vector<int>& preorder) {
-    int start = 0;
-    int end = preorder.size()-1;
-    TreeNode* root = helperRE(start, end, preorder);
-    return root;
+    int min = INT_MIN; int max = INT_MAX;
+    int i = 0;
+    return buildRE(i, min, max, preorder);
 }
 
 int main(){

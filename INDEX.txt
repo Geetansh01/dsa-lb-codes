@@ -453,7 +453,7 @@ a lot of time being wasted wondering why the code is not working
             1)V186_1 : Inorder Successor in BST [GFG : https://www.geeksforgeeks.org/problems/inorder-successor-in-bst/1]
             2)V186_2 : Inorder Predecessor of Node in BST [work@tech : https://workat.tech/problem-solving/practice/inorder-predecessor-bst]
                   ---->Code not saved locally, similar to "QL186_1"
-            3)V186_3 : Construct Binary Search Tree from Preorder Traversal [LeetCode : https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/description/]
+            3)V186_3 : Construct Binary Search Tree from Preorder Traversal [Interview] [LeetCode : https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/description/]
             4)V186_4 : Brothers From Different Roots [GFG : https://www.geeksforgeeks.org/problems/brothers-from-different-root/1]
                   1)PreReQ : Binary Tree Inorder Traversal WITHOUT RE [LeetCode : https://leetcode.com/problems/binary-tree-inorder-traversal/description/]
                   2)Actual Solution to Question
@@ -464,6 +464,8 @@ a lot of time being wasted wondering why the code is not working
             9)V186_9 : Flatten BST to sorted list [GFG : https://www.geeksforgeeks.org/flatten-bst-to-sorted-list-increasing-order/]
                   ----> No online judge, just the GFG Article
             10)V186_10 : Replace every element with the least greater element on its right [GFG : https://www.geeksforgeeks.org/problems/replace-every-element-with-the-least-greater-element-on-its-right/1]
+            11)V186_11 : Valid BST from Preorder [InterviewBit : https://www.interviewbit.com/problems/valid-bst-from-preorder/]
+            12)V186_12 : Merge two BSTs [GFG : https://www.geeksforgeeks.org/problems/merge-two-bst-s/1]
 
 
             
