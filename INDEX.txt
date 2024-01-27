@@ -468,6 +468,16 @@ a lot of time being wasted wondering why the code is not working
             12)V186_12 : Merge two BSTs [GFG : https://www.geeksforgeeks.org/problems/merge-two-bst-s/1]
 
 
+/**********************Week 14**************************************/
+      [L/V numbers still according to local saved vids]
+
+      L187 : 1)Heap Intro 
+             2)Insertion in heap (Heapification concept)
+             3)Deletion from heap
+             4)Hepify (using RE) [Interview]
+             5)Array to heap
+
+
             
              
 
