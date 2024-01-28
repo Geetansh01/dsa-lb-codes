@@ -476,6 +476,8 @@ a lot of time being wasted wondering why the code is not working
              3)Deletion from heap
              4)Hepify (using RE) [Interview]
              5)Array to heap
+      L188  : 1)Min/Max Heap using STL - priority_queue
+              2)Kth smallest/ largest element [Also on LeetCode : https://leetcode.com/problems/kth-largest-element-in-an-array/description/]
 
 
             
