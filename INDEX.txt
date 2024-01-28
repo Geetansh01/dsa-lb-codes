@@ -478,9 +478,9 @@ a lot of time being wasted wondering why the code is not working
              5)Array to heap
       L188  : 1)Min/Max Heap using STL - priority_queue
               2)Kth smallest/ largest element [Also on LeetCode : https://leetcode.com/problems/kth-largest-element-in-an-array/description/]
-
-
-            
+              3)Chk if given CBT valid Max Heap
+              4)Check Completeness of a Binary Tree [LeetCode : https://leetcode.com/problems/check-completeness-of-a-binary-tree/description/]
+              5)Given CBT + BST, make MaxHeap
              
 
              
