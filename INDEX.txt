@@ -481,10 +481,12 @@ a lot of time being wasted wondering why the code is not working
               3)Chk if given CBT valid Max Heap
               4)Check Completeness of a Binary Tree [LeetCode : https://leetcode.com/problems/check-completeness-of-a-binary-tree/description/]
               5)Given CBT + BST, make MaxHeap
-             
+      L189 : 1)Merge K Sorted Arrays
+             2)Merge k Sorted Lists [LeetCode : https://leetcode.com/problems/merge-k-sorted-lists/description/]
+                  -Although LeetCode hard marked but actually medium
+                  -Can be done via same approach as "L189 : Merge K Sorted Arrays"
 
-             
-
+       
              
 
 
