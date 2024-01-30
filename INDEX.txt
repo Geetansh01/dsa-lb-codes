@@ -487,6 +487,9 @@ a lot of time being wasted wondering why the code is not working
                   -Can be done via same approach as "L189 : Merge K Sorted Arrays"
              3)Smallest Range Covering Elements from K Lists [Interview : Amazon] [LeetCode : https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/description/]
 
+      L190 : 1)Remove Stones to Minimize the Total [LeetCode : https://leetcode.com/problems/remove-stones-to-minimize-the-total/description/]
+             2)Reorganize String [Interview][LeetCode : https://leetcode.com/problems/reorganize-string/description/]
+
        
              
 
