@@ -35,6 +35,7 @@ void mergeKSortedArrays(int arr[][4], int n, int k, vector<int>& ans){
         pq.push(temp);
     } 
 
+    //Step 2 : Min-heap se minimum element uthate jao and merged Array bnate jao
     while(!pq.empty()){
         Info* temp = pq.top();
         pq.pop();
