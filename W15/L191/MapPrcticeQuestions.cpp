@@ -42,7 +42,7 @@ int main(){
     }
 
 
-    //Q2 : Chk for loop in linked list
+    //Q2 : Chk for loop in linked list [LeetCode : https://leetcode.com/problems/linked-list-cycle/submissions/1166077183/]
 
     return 0;
 }
