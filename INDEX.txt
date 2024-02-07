@@ -511,6 +511,8 @@ a lot of time being wasted wondering why the code is not working
       L191 : 1)Maps Intro
              2)Map using STL
              3)Some Practice Questions to apply map
+      L192 : 1)Trie intro
+             2)Insertion/ Searching/ deletion in Trie 
 
                   
 
