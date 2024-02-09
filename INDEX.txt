@@ -513,6 +513,9 @@ a lot of time being wasted wondering why the code is not working
              3)Some Practice Questions to apply map
       L192 : 1)Trie intro
              2)Insertion/ Searching/ deletion in Trie 
+      L193 : 1)Get All words given a "prefix"
+             2)Get All suggestions given a input word
+             3)Longest Common Prefix [LeetCode : https://leetcode.com/problems/longest-common-prefix/description/]
 
                   
 
