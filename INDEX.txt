@@ -516,6 +516,9 @@ a lot of time being wasted wondering why the code is not working
       L193 : 1)Get All words given a "prefix" [Interview]
              2)Get All suggestions given a input word [Interview]
              3)Longest Common Prefix [LeetCode : https://leetcode.com/problems/longest-common-prefix/description/]
+      V193_1 to L193_9 : HW Questions
+            1)V193_1 : Array Subset of another array [GFG : https://www.geeksforgeeks.org/problems/array-subset-of-another-array2317/1]
+            2)V193_2 : Union of Two Linked Lists [GFG : https://www.geeksforgeeks.org/problems/union-of-two-linked-list/1]
 
 /**********************Week 16**************************************/
       L194 : 1)DP intro
@@ -528,8 +531,7 @@ a lot of time being wasted wondering why the code is not working
       L195 : 1)House Robber [LeetCode : https://leetcode.com/problems/house-robber/description/]
              2)Coin Change [Interview] [LeetCode : https://leetcode.com/problems/coin-change/]
       
-
-                  
+                 
 
 
                   
