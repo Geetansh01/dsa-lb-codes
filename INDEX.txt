@@ -525,6 +525,10 @@ a lot of time being wasted wondering why the code is not working
                   3)Fibonacci using Tabulation method Space Optimised
              3)Change Plain RE soln to DP soln
              4)1D, 2D, 3D DP
+      L195 : 1)House Robber [LeetCode : https://leetcode.com/problems/house-robber/description/]
+             2)Coin Change [Interview] [LeetCode : https://leetcode.com/problems/coin-change/]
+      
+
                   
 
 
