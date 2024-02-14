@@ -530,9 +530,12 @@ a lot of time being wasted wondering why the code is not working
              4)1D, 2D, 3D DP
       L195 : 1)House Robber [LeetCode : https://leetcode.com/problems/house-robber/description/]
              2)Coin Change [Interview] [LeetCode : https://leetcode.com/problems/coin-change/]
+      L196 : 1)Painting the Fence [GFG : https://www.geeksforgeeks.org/problems/painting-the-fence3727/1]
+                  1)With Only RE
+                  2)With DP
+             2)0/1 KnapSack [GFG : https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1]
       
                  
-
 
                   
 
