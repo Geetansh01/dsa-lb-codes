@@ -88,7 +88,7 @@ int solveUsingTabSO(string a, string b){
     // vector<vector<int> > dp(a.length() + 1, vector<int>(b.length() + 1, 0));
     vector<int> curr(a.length() + 1, 0);
     vector<int> next(a.length() + 1, 0);
-    //Fill initial data : done by initializing dp[][] with 0
+    //Fill initial data : done by initializing next[] with 0
 
     for(int j_index = b.length()-1; j_index >= 0; j_index--){
         for(int i_index = a.length()-1; i_index >= 0; i_index--){
@@ -113,6 +113,36 @@ int solveUsingTabSO(string a, string b){
     return curr[0];
 }
 
+//TabulationSO without loop change compared to pure Tabulation (Sb purana logic hai, try to see dp me filling kaise hori hai)
+int solveUsingTabSONoLoopChange(string a, string b){
+    // vector<vector<int> > dp(a.length() + 1, vector<int>(b.length() + 1, 0));
+    vector<int> currRow(b.length() + 1, 0);
+    vector<int> nextRow(b.length() + 1, 0);
+
+    //Fill initial data : done by initializing next[] with 0
+
+    for(int i_index = a.length()-1; i_index >= 0; i_index--){
+        for(int j_index = b.length()-1; j_index >= 0; j_index--){
+                int ans = 0;
+                if(a[i_index] == b[j_index]){
+                    //current chars match
+                    ans = 1 + nextRow[j_index+1];
+                }
+                else{
+                    //current chars don't match
+                    ans = 0 + max(currRow[j_index+1], 
+                                    nextRow[j_index]);
+                }
+                currRow[j_index] = ans;
+        }
+
+        //Update next
+        nextRow = currRow;  
+    }
+
+    return nextRow[0];
+}
+
 int longestCommonSubsequence(string text1, string text2) {
     //Plain RE
     // int i = 0;
@@ -132,7 +162,11 @@ int longestCommonSubsequence(string text1, string text2) {
     // return ans;
 
     //TabulationSO
-    int ans = solveUsingTabSO(text1, text2);
+    // int ans = solveUsingTabSO(text1, text2);
+    // return ans;
+
+    //TabulationSO without loop change compared to pure Tabulation (Sb purana logic hai, try to see dp me filling kaise hori hai)
+    int ans = solveUsingTabSONoLoopChange(text1, text2);
     return ans;
 }
 

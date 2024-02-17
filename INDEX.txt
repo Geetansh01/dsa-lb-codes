@@ -539,6 +539,9 @@ a lot of time being wasted wondering why the code is not working
       L197 : 1)Longest Common Subsequence [LeetCode : https://leetcode.com/problems/longest-common-subsequence/description/]
              2)Longest Palindromic Subsequence
              3)Edit Distance [LeetCode : https://leetcode.com/problems/edit-distance/description/]
+      L198 : 1)Longest Increasing Subsequence [Interview][Pattern Based][LeetCode : https://leetcode.com/problems/longest-increasing-subsequence/description/]
+             2)Maximum Height by Stacking Cuboids [LeetCode : https://leetcode.com/problems/maximum-height-by-stacking-cuboids/]
+             3)Russian Doll Envelopes [LeetCode : https://leetcode.com/problems/russian-doll-envelopes/description/]
       
                  
 
