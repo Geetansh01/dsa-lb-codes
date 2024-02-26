@@ -552,7 +552,9 @@ a lot of time being wasted wondering why the code is not working
              2)Minimum Cost Tree From Leaf Values [LeetCode : https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/description/]
       L200 : 1)Partition Equal Subset Sum [LeetCode : https://leetcode.com/problems/partition-equal-subset-sum/description/]
              2)Number of Dice Rolls With Target Sum [LeetCode : https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/description/]
-                 
+      V200_1 onwards : HW Questions
+            1)V200_1 : Perfect Squares [LeetCode : https://leetcode.com/problems/perfect-squares/]
+            2)V200_2 : Minimum Cost For Tickets [LeetCode : https://leetcode.com/problems/minimum-cost-for-tickets/description/]
 
 
 
