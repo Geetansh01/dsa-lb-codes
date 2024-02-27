@@ -556,6 +556,8 @@ a lot of time being wasted wondering why the code is not working
             1)V200_1 : Perfect Squares [LeetCode : https://leetcode.com/problems/perfect-squares/]
             2)V200_2 : Minimum Cost For Tickets [LeetCode : https://leetcode.com/problems/minimum-cost-for-tickets/description/]
             3)V200_3 : Minimum ASCII Delete Sum for Two Strings [LeetCode : https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/description/]
+            4)V200_4 : Longest Palindromic Substring [LeetCode : https://leetcode.com/problems/longest-palindromic-substring/description/]
+            5)V200_5 : Distinct Subsequences [LeetCode : https://leetcode.com/problems/distinct-subsequences/description/]
 
 
 
