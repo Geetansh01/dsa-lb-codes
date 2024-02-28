@@ -558,7 +558,8 @@ a lot of time being wasted wondering why the code is not working
             3)V200_3 : Minimum ASCII Delete Sum for Two Strings [LeetCode : https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/description/]
             4)V200_4 : Longest Palindromic Substring [LeetCode : https://leetcode.com/problems/longest-palindromic-substring/description/]
             5)V200_5 : Distinct Subsequences [LeetCode : https://leetcode.com/problems/distinct-subsequences/description/]
-
+            6)V200_6 : Word Break [LeetCode : https://leetcode.com/problems/word-break/description/]
+            7)V200_7 : Word Break II [LeetCode : https://leetcode.com/problems/word-break-ii/description/]
 
 
 
