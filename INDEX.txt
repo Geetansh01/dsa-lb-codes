@@ -562,6 +562,7 @@ a lot of time being wasted wondering why the code is not working
             7)V200_7 : Word Break II [LeetCode : https://leetcode.com/problems/word-break-ii/description/]
             8)V200_8 : Unique Binary Search Trees II[LeetCode : https://leetcode.com/problems/unique-binary-search-trees-ii/description/]
             9)V200_9 : House Robber III [LeetCode : https://leetcode.com/problems/house-robber-iii/description/]
+            10)V200_10 : Stone Game [LeetCode : https://leetcode.com/problems/stone-game/description/]
 
 
 

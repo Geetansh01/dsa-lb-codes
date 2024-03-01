@@ -110,6 +110,13 @@ int rob(TreeNode* root) {
         
         4)"parentLooted" is dropped in this approach!
     */
+
+   /*
+        Note that a tabulation solution does not make sense here since we are given a Binary Search Tree (BST). In our recursive approach, we pass the root node of the BST to the recursive function. From the root, the recursive function makes calls to the children nodes.
+
+        If you want to use tabulation, it would involve filling the dp table for the children nodes first and then moving on to parent nodes. However, you can't move from children nodes to parent nodes in a BST, so tabulation solution does not make sense here.
+ 
+   */
    
     return maxLoot;
 }
