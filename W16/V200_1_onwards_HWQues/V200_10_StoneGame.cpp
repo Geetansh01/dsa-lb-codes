@@ -4,6 +4,7 @@ using namespace std;
 
 /******V200_10_StoneGame******/
 
+//"solveUsingRE()" returns Maximum Stones more than Bob with which Alice can win.
 int solveUsingRE(vector<int>& piles, int start, int end){
     //BC
     if(end - start + 1 == 2){
