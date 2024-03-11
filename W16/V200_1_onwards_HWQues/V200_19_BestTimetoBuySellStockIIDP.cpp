@@ -141,14 +141,14 @@ int solveUsingTabSO(vector<int>& prices){
                 maxProfit = max(option3, option4);
             }
             
-            curr[index_i] = maxProfit;
+            curr[canBuy_i] = maxProfit;
         }
 
         //Update next
         next = curr;
     }
 
-    return curr[1]; //Using this I was able to submit on LeetCode but some other questions me gdbd hojati thi so I am making practice to return answer from next[] !
+    // return curr[1]; //Using this I was able to submit on LeetCode but some other questions me gdbd hojati thi so I am making practice to return answer from next[] !
     return next[1];
 }
 
@@ -170,7 +170,7 @@ int maxProfit(vector<int>& prices) {
     // ans = solveUsingTab(prices); 
 
     //TabSo [TC : O(n); SC : O(1); n is size of prices[] array]
-    ans = solveUsingTab(prices); 
+    ans = solveUsingTabSO(prices); 
 
     return ans;
 }
