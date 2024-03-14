@@ -578,6 +578,10 @@ a lot of time being wasted wondering why the code is not working
             21)V200_21 : Best Time to Buy and Sell Stock IV [LeetCode : https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/]
             22)V200_22 : Best Time to Buy and Sell Stock with Transaction Fee [LeetCode : https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/]
             23)V200_23 : Target Sum [LeetCode : https://leetcode.com/problems/target-sum/description/]
+            24)V200_24 : Ones and Zeroes [LeetCode : https://leetcode.com/problems/ones-and-zeroes/description/]
+            25)V200_25 : Minimum Swaps To Make Sequences Increasing [LeetCode : https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/description/]
+            26)V200_26 : Reducing Dishes [LeetCode : https://leetcode.com/problems/reducing-dishes/description/]
+            27)V200_27 : Predict the Winner [LeetCode : https://leetcode.com/problems/predict-the-winner/description/]
       LImaginaryW16 : More DP Questions & Patterns
             1)Q1 : Matrix Chain Multiplication [RE Pattern : P/MI or MCM Pattern] [Coding Ninjas : https://www.codingninjas.com/studio/problems/matrix-chain-multiplication_624880]
 
@@ -586,5 +590,5 @@ a lot of time being wasted wondering why the code is not working
 
             
 
-                
+               
                   
