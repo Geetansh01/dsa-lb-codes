@@ -34,8 +34,8 @@ class Graph{
         }
 
         void dfsTraversal(T sourceNode, unordered_map<T, bool>& visited){
-            //BC
-            if(visited[sourceNode] == true) return;
+            // //BC (Not needed bcz of ___Condition Lines below)
+            // if(visited[sourceNode] == true) return;
 
             //1 case Hm
             visited[sourceNode] = true;
@@ -44,12 +44,16 @@ class Graph{
             //RE Calls for all neighbours
             for(pair<T, int> neighbour : adjList[sourceNode]){
                 T neighbourData = neighbour.first;
-                dfsTraversal(neighbourData, visited);  //___Line (1)
 
-                //If you don't want that BC above then use folowing instead of Line (1):
-                // if(visited[neighbourData] == false){
-                //     dfsTraversal(neighbourData, visited);
-                // }
+                //___Condition Lines
+                // If you want that BC above then use Line (1) instead
+                if(visited[neighbourData] == false){
+                    //RE Call only if neighbour not already visited!
+                    dfsTraversal(neighbourData, visited);
+                }
+
+                // dfsTraversal(neighbourData, visited);  //___Line (1)
+
             }
         }
 };
