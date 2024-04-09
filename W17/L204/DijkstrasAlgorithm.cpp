@@ -34,28 +34,8 @@ class Graph{
         }
     }
 
-    void topoSortDFS(int sourceNode, unordered_map<int, bool>& visited, stack<int>& ans){
-        //1 case Hm
-        visited[sourceNode] = true;
-        // cout<<sourceNode<<" ";
-
-        //RE Calls for all neighbours
-        for(pair<int, int> neighbourPair : adjList[sourceNode]){
-
-            int neighbour = neighbourPair.first;
-
-            if(visited[neighbour] == false){
-                //RE Call only if neighbour not already visited!
-                topoSortDFS(neighbour, visited, ans);
-            }
-        }
-
-        //While returning, store the node in stack
-        ans.push(sourceNode);
-    }
-
     void shortestPathDijkstra(int sourceNode, int totNodes){
-        vector<int> distance(totNodes + 1, INT_MAX);
+        vector<int> distance(totNodes, INT_MAX);
         set< pair<int, int> > st; //stores {distance of Node, Node itself}
 
         //Set distance of source to 0
@@ -119,7 +99,7 @@ int main(){
     // g.printAdjList();
     
     int sourceNode = 6;
-    int totNodes = 7;
+    int totNodes = 7;  //Why 7 when there are only 6 nodes in the graph? Because, we are considering the nodes from 0 to 6 [See size of distance[] array from notebook]
     g.shortestPathDijkstra(sourceNode, totNodes);
 
 
