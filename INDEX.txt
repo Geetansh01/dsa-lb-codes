@@ -625,7 +625,10 @@ a lot of time being wasted wondering why the code is not working
       L208 : 1)Kosaraju's Algo to find SCC in directed graph
              2)Tarjan's bridge-finding algorithm in Undirected Graph
                   Apply it : Critical Connections in a Network [LeetCode : https://leetcode.com/problems/critical-connections-in-a-network/description/]
-
+      V208_1 onwards : HW Questions
+            1)V208_1 : Prim’s Algorithm for MST [Practice here -> GFG : https://www.geeksforgeeks.org/problems/minimum-spanning-tree/1]
+            2)V208_2 : Kruskals Algorithm for MST [Practice here -> GFG : https://www.geeksforgeeks.org/problems/minimum-spanning-tree/1]
+            
 
 /*******2 Imp. Questions from each Topic**********/
       Arrays
