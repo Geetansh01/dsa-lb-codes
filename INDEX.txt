@@ -658,6 +658,21 @@ a lot of time being wasted wondering why the code is not working
       5)Clear bits in range
       6)SubSequences of String [Also done in L93 : SubSequences of String ]
 
+/*******Bonus Session - Sliding Window**********/
+      L211:
+      🟥Fixed Size Window
+            1)Sliding Window Maximum [Done in L167] [LeetCode : https://leetcode.com/problems/sliding-window-maximum/description/]
+
+      🟥2 pointers 
+            2)Two Sum [Interview][LeetCode : https://leetcode.com/problems/two-sum/description/]
+      
+      🟥Variable Size Window
+            3)Minimum Size Subarray Sum [LeetCode : https://leetcode.com/problems/minimum-size-subarray-sum/description/]
+            4)Minimum Window Substring [LeetCode : https://leetcode.com/problems/minimum-window-substring/description/]
+                  ----> This Question also belongs to 🟥Optimized Sliding Window category as we used a HashMap too!
+
+            5)More Slidin Window Based Ques : https://leetcode.com/discuss/general-discussion/1122776/summary-of-sliding-window-patterns-for-subarray-substring
+
 /*******2 Imp. Questions from each Topic**********/
       Arrays
             1)Kadane's Algorithm [V116]
