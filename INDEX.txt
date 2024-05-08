@@ -670,8 +670,15 @@ a lot of time being wasted wondering why the code is not working
             3)Minimum Size Subarray Sum [LeetCode : https://leetcode.com/problems/minimum-size-subarray-sum/description/]
             4)Minimum Window Substring [LeetCode : https://leetcode.com/problems/minimum-window-substring/description/]
                   ----> This Question also belongs to 🟥Optimized Sliding Window category as we used a HashMap too!
+            5)Binary Subarrays With Sum [https://leetcode.com/problems/binary-subarrays-with-sum/description/]
 
-            5)More Slidin Window Based Ques : https://leetcode.com/discuss/general-discussion/1122776/summary-of-sliding-window-patterns-for-subarray-substring
+            6)More Slidin Window Based Ques : https://leetcode.com/discuss/general-discussion/1122776/summary-of-sliding-window-patterns-for-subarray-substring
+
+/*******Bonus Session - BackTracking Questions*********/
+      L212:
+      1)Letter Tile Possibilities [LeetCode : https://leetcode.com/problems/letter-tile-possibilities/description/]
+      2)Remove Invalid Parentheses [LeetCode : https://leetcode.com/problems/remove-invalid-parentheses/description/]
+
 
 /*******2 Imp. Questions from each Topic**********/
       Arrays

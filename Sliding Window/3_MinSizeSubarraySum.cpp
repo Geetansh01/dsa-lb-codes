@@ -20,11 +20,12 @@ int minSubArrayLen(int target, vector<int>& nums) {
             //1)Pehle current length store kr lo
             length = min(length, end - start + 1); 
 
-            //2)start ko age bdhao (to sum bhi update krlena)
+            //2)start ko age bdhao ( 3) to sum bhi update krlena)
             sum = sum - nums[start];
             start++;
         }
 
+        //4) Increase window size
         end++;
     }
 
