@@ -255,6 +255,9 @@ a lot of time being wasted wondering why the code is not working
              2)Letter Combinations of a Phone Number [LeetCode : https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/]
       L_ImaginaryW6 : 
             1)Sudoku Solver [LeetCode : https://leetcode.com/problems/sudoku-solver/description/]
+            2)House Robber II [LeetCode : https://leetcode.com/problems/house-robber-ii/description/]
+            3)Count Derangements
+            4)Maximal Square[LeetCode : https://leetcode.com/problems/maximal-square/description/]
       V114-122 : HW Ques
             1)Q114 : Counting Inversions [Hackerrank : https://www.hackerrank.com/challenges/ctci-merge-sort/problem][Interview]
             2)L115 : In Place Merge Sort [This was a lecture]
