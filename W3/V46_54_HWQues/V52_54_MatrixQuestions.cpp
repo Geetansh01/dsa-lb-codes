@@ -44,6 +44,8 @@ using namespace std;
 
 //     while(count < row * col){
         
+//         //REMEMBER : " && (count < row*col) " ye condition bhule ga tu!
+
 //         //Printing StartingRow
 //         for(int i = StartingCol; (i <= EndingCol) && (count < row*col); i++){
 //             ans.push_back(vec[StartingRow][i]);
