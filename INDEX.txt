@@ -92,6 +92,7 @@ a lot of time being wasted wondering why the code is not working
                   3) Majority Element In Array [LeetCode : https://leetcode.com/problems/majority-element/description/][Moore's Voting Algorithm]
                   4) Rotate Image [LeetCode : https://leetcode.com/problems/rotate-image/description/]
                   5) BuySellStock Level 1 [LeetCode : https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/]
+                  6)Backspace String Compare [Interview][LeetCode : https://leetcode.com/problems/backspace-string-compare/description/]
 
 
 /*******************************************Week 4***************************************/

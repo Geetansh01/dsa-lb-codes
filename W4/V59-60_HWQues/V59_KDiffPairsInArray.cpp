@@ -55,6 +55,7 @@ int binarySearch(vector<int>& nums, int target, int start){
     return -1;
 }
 
+
 int findPairs(vector<int>& nums, int k) {
     sort(nums.begin(), nums.end());
     set<pair<int, int>> ans;
@@ -68,6 +69,38 @@ int findPairs(vector<int>& nums, int k) {
 return ans.size();
 }
 
+// //Method 3 (My Soln) : Pure Two Pointer Approach. No other data structure Used
+// //Same TC as above two!
+// int findPairs(vector<int> nums, int k) {
+//     int left = 0;
+//     int right = 1;
+//     int len = nums.size();
+//     int count = 0;
+//     sort(nums.begin(), nums.end());
+
+//     while (right < len && left < len) {
+//         if (right <= left) {
+//             right = left + 1;
+//             continue;
+//         }
+
+//         int difference = abs(nums[right] - nums[left]);
+//         if (difference == k) {
+//             count++;
+//             int currentNum = nums[left];
+//             while (left < len && nums[left] == currentNum) {
+//                 left++;
+//             }
+//         } 
+//         else if (difference > k) {
+//             left++;
+//         } 
+//         else {
+//             right++;
+//         }
+//     }
+//     return count;
+// }
 
 int main(){
    vector<int> nums = {3,1,4,1,5};

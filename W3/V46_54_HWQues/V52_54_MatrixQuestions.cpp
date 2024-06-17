@@ -158,6 +158,8 @@ using namespace std;
 
 
 /*************************Q 54B : Factorials of large numbers [GFG : https://practice.geeksforgeeks.org/problems/factorials-of-large-numbers2508/1] ****************************************/
+
+//Ref this video to understand (Better than L-54) : " https://youtu.be/O3fwYjcMV_M?si=Z-qoU1ZGqzWlnKRN "
 vector<int> LargeFactorial(int N){
     int mul = 0; //multiplication result
     int carry = 0;
