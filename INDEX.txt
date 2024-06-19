@@ -732,8 +732,15 @@ a lot of time being wasted wondering why the code is not working
             1)Get All words given a "prefix" [L193]
             2)Q 70 : Valid Anagram (Do it using Hashmaps)
 
+/******Additional Algorithms ************/
+Note: 1) Done After the completion of simple DSA course
+      2) Some of these algos fall under CP 
+      3) PN : Page Number from Notebook for additional DSA algos
 
-      
+      1)Manacher's Algorithm (PN : 1)
+            1)Ref : " https://cp-algorithms.com/string/manacher.html#manachers-algorithm-finding-all-sub-palindromes-in-on" 
+            2)Ques : L68 : 5)Palindromic Substrings
+            3)Also in Algos Notebook
 
 
 
