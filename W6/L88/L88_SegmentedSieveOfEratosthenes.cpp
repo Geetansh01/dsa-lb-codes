@@ -43,7 +43,7 @@ vector<int> SSoE(int L, int R){
 
     vector<int> ans; //this will be the array containing all primes between "L" and "R" (including "L" and "R")
 
-    //Generate primes needed to cancel factors in Segmented Sieve
+    //Generate primes needed to cancel multiples in Segmented Sieve
     vector<int> primes = NormalSoE(sqrt(R));
 
     //Make Segmented Sieve (ss)
@@ -52,12 +52,12 @@ vector<int> SSoE(int L, int R){
     //Cancel the non-prime numbers
     for(int i = 0; i < primes.size(); i++){
 
-        int first_factor = (L/primes[i]) * primes[i];
-        if(first_factor < L){
-            first_factor = first_factor + primes[i];
+        int first_multiple = (L/primes[i]) * primes[i];
+        if(first_multiple < L){
+            first_multiple = first_multiple + primes[i];
         }
 
-        int j = max(first_factor, primes[i] * primes[i]);
+        int j = max(first_multiple, primes[i] * primes[i]);
         while(j <= R){
             ss[j-L] = false;
             j = j + primes[i];
