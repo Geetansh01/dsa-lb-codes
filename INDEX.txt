@@ -53,6 +53,9 @@ a lot of time being wasted wondering why the code is not working
                7) Q 40 : Set The Kth Bit [GFG : https://practice.geeksforgeeks.org/problems/set-kth-bit3724/1]
                8) Q 41 : Convert the Temperature [LeetCode : https://leetcode.com/problems/convert-the-temperature/submissions/]
 
+               /**Below Ques from DSA 2.0 (So no saved vids)**/
+               9) Q 41_1 : CountAllSetBits
+
 
 
 /*******************Week 3*****************/
@@ -86,13 +89,18 @@ a lot of time being wasted wondering why the code is not working
                   2) Q 53 : Spiral Print A Matrix [Interview] [LeetCode : https://leetcode.com/problems/spiral-matrix/description/]
                   3) Q 54A : Add two numbers represented by two arrays [GFG : https://practice.geeksforgeeks.org/problems/add-two-numbers-represented-by-two-arrays2408/1]
                      Q 54B : Factorials of large numbers [GFG : https://practice.geeksforgeeks.org/problems/factorials-of-large-numbers2508/1]
+
+                  /**Below Ques from DSA 2.0 (So no saved vids)**/
+                  4) Find Pivot Index [LeetCode : https://leetcode.com/problems/find-pivot-index/description/]
+                  5) Missing Number [LeetCode : https://leetcode.com/problems/missing-number/description/]
+
       Limaginary : This lecture was done from YouTube (DSA LB + StriverA2Z DSA)
                   1) Rotate Array [LeetCode : https://leetcode.com/problems/rotate-array/description/]
                   2) Check if Array Is Sorted and Rotated [LeetCode : https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/]
                   3) Majority Element In Array [LeetCode : https://leetcode.com/problems/majority-element/description/][Moore's Voting Algorithm]
                   4) Rotate Image [LeetCode : https://leetcode.com/problems/rotate-image/description/]
                   5) BuySellStock Level 1 [LeetCode : https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/]
-                  6)Backspace String Compare [Interview][LeetCode : https://leetcode.com/problems/backspace-string-compare/description/]
+                  6) Backspace String Compare [Interview][LeetCode : https://leetcode.com/problems/backspace-string-compare/description/]
 
 
 /*******************************************Week 4***************************************/
