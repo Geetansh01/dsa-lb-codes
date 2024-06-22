@@ -8,7 +8,7 @@ using namespace std;
 void InPlaceMergeSortedArrays(int* A, int sA, int* B, int sB){
     int n = sA;
     int m = n + sB;
-    int gap = (n+m)/2 + (n+m)%2;
+    int gap = (m)/2 + (m)%2;
 
     while(gap >= 1){
         int i = 0; 
