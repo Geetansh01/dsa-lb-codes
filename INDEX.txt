@@ -288,7 +288,7 @@ a lot of time being wasted wondering why the code is not working
       L137 : 1)Insertion and Deletion in DLL
              2)Reverse SLL (Using RE, using Loop)
       L138 : 1)Find Middle node of LL [Tortoise-Hare Algorithm/ Slow-Fast pointer Algorithm] [Interview]
-             2)Reverse SLL in groups of K [Interview]
+             2)Reverse SLL in groups of K [Interview] [LeetCode : https://leetcode.com/problems/reverse-nodes-in-k-group/description/]
              3)Chk if given SLL in input is circular or not:
                   1)using temp
                   2)using slow/fast pointers
@@ -299,7 +299,7 @@ a lot of time being wasted wondering why the code is not working
                   1)Detect Loop
                   2)Find Starting of Loop
                   3)Remove Loop
-      L139 : 1)Check if given SLL is Palindrome
+      L139 : 1)Check if given SLL is Palindrome [GFG : https://www.geeksforgeeks.org/problems/check-if-linked-list-is-pallindrome/1] [Saved Code in laptop is not submitted on GFG, that is standalone code to understand the concept]
                   2)Remove duplicates from a sorted SLL
                   3)Sort 0's , 1's, 2's in SLL :
                   1)Replacing Data in SLL Allowed
