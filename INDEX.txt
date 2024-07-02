@@ -513,9 +513,7 @@ a lot of time being wasted wondering why the code is not working
             5)V190_5 : Minimum Difference in Sums After Removal of Elements [LeetCode : https://leetcode.com/problems/minimum-difference-in-sums-after-removal-of-elements/description/]
             6)V190_6 : Minimum Number of Refueling Stops[LeetCode : https://leetcode.com/problems/minimum-number-of-refueling-stops/description/]
             7)V190_7 : Sliding Window Maximum [LeetCode : https://leetcode.com/problems/sliding-window-maximum/description/]
-
-            >>>>>>>>>TO DOOOOOOOOOO Rhombus Sum 2nd Code
-       
+                  
          
 /**********************Week 15**************************************/
       [Local saved vids are mostly unusable from here, but Numbering can still be followed so continuing that]
