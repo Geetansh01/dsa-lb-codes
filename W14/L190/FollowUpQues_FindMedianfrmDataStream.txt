@@ -1,0 +1,13 @@
+Follow up Questions (Asked on LeetCode : https://leetcode.com/problems/find-median-from-data-stream/description/ ):
+Q1: If all integer numbers from the stream are between 0 and 100, how would you optimize it?
+
+    We can maintain an integer array of length 100 to store the count of each number along with a total count. Then, we can iterate over the array to find the middle value to get our median.
+
+    Time and space complexity would be O(100) = O(1).
+
+Q2: If 99% of all integer numbers from the stream are between 0 and 100, how would you optimize it?
+
+    In this case, we need an integer array of length 100 and a map (std::map bcz it would keep numbers sorted) for those numbers that are not in [0,100].
+
+Answers taken from below comment :
+" https://leetcode.com/problems/find-median-from-data-stream/description/comments/1564564 "
