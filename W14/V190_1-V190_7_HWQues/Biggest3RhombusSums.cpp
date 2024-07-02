@@ -102,6 +102,107 @@ vector<int> getBiggestThree(vector<vector<int>>& grid) {
     return ans;
 }
 
+//Lakshay Bhaiya's Soln (Also Brute Force, nothing to learn)
+// bool checkPointsInGrid(vector<pair<int, int>>& corners, vector<vector<int>>& grid){
+//     int row = grid.size();
+//     int col = grid[0].size();
+//     for(auto& c : corners){
+//         int x = c.first; //x coordinate
+//         int y = c.second; 
+//         if(x < 0 || x >= row || y < 0 || y >= col) return false;
+//     }
+//     return true;
+// }
+
+// bool getCorners(vector<vector<int>>& grid, vector<pair<int, int>>& corners, pair<int, int>& centre, int delta){
+//     //Corners of Rhombus A B C D (Clockwise from top)
+//     pair<int, int> A(centre.first-delta, centre.second);
+//     pair<int, int> B(centre.first, centre.second+delta);
+//     pair<int, int> C(centre.first+delta, centre.second);
+//     pair<int, int> D(centre.first, centre.second-delta);
+
+//     corners[0] = A;
+//     corners[1] = B;
+//     corners[2] = C;
+//     corners[3] = D;
+
+//     if(checkPointsInGrid(corners, grid)){
+//         return true;
+//     }
+//     return false;
+// }
+
+// void getAllRhomSum(vector<vector<int>>& grid, int i, int j, priority_queue<int>& pq){
+//     //Push 1x1 rhombus sum (i.e the cell itself)
+//     pq.push(grid[i][j]);
+
+//     int delta = 1;
+//     vector<pair<int, int>> corners(4); //Will store corners of Rhombus A, B, C, D
+//     pair<int, int> centre = {i, j};
+//     while(getCorners(grid, corners, centre, delta)){
+//         pair<int, int>& A = corners[0];
+//         pair<int, int>& B = corners[1];
+//         pair<int, int>& C = corners[2];
+//         pair<int, int>& D = corners[3];
+
+//         int sum = grid[A.first][A.second] + grid[B.first][B.second] + grid[C.first][C.second] + grid[D.first][D.second];
+
+//         //Sum of cells B/w A to B
+//         for(int i = 1; i < (B.first - A.first); i++){
+//             sum += grid[A.first + i][A.second + i];
+//         }
+
+//         //Sum of cells B/w B to C
+//         for(int i = 1; i < (C.first - B.first); i++){
+//             sum += grid[B.first + i][B.second - i];
+//         }
+
+//         //Sum of cells B/w C to D
+//         for(int i = 1; i < (C.first - D.first); i++){
+//             sum += grid[C.first - i][C.second - i];
+//         }
+
+//         //Sum of cells B/w D to A
+//         for(int i = 1; i < (D.first - A.first); i++){
+//             sum += grid[D.first - i][D.second + i];
+//         }
+        
+//         pq.push(sum); //Pushed Rhombus sum
+//         delta++; 
+//     }
+// }
+
+// bool isDistinct(int top, vector<int>& ans){
+//     for(auto& num : ans){
+//         if(num == top) return  false;
+//     }
+//     return true;
+// }
+
+// vector<int> getBiggestThree(vector<vector<int>>& grid) {
+//     priority_queue<int> pq; //maxH
+//     int row = grid.size();
+//     int col = grid[0].size();
+
+//     for(int i = 0; i < row; i++){
+//         for(int j = 0; j < col; j++){
+//             getAllRhomSum(grid, i, j, pq);
+//         }
+//     }
+
+//     vector<int> ans;
+//     while(!pq.empty() && ans.size() < 3){
+//         int top = pq.top();
+//         pq.pop();
+//         if(isDistinct(top, ans)){
+//             ans.push_back(top);
+//         }
+//     }
+
+//     return ans;
+
+// }
+
 int main(){
    vector<vector<int> > grid = {{3,4,5,1,3},{3,3,4,2,3},{20,30,200,40,10},{1,5,5,4,1},{4,3,2,2,5}};
    vector<int> ans = getBiggestThree(grid);
