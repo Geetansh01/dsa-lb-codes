@@ -10,7 +10,7 @@ class Graph{
     unordered_map<T, list<pair<T, int> > > adjList; //Taking Weighted graph
     
     public:
-        void addEdge(T u, T v, T weight, bool direction){
+        void addEdge(T u, T v, int weight, bool direction){
             if(direction == 1){
                 adjList[u].push_back(make_pair(v, weight)); //I used "make_pair()" just for the sake of it!
             }
@@ -86,7 +86,7 @@ int main(){
     // //     }
     // // }
 
-    //Disconnected Graph
+    // Disconnected Graph
     // Graph<char> g5;
     // g5.addEdge('a', 'b', 5, 0);
     // g5.addEdge('b', 'c', 5, 0);
