@@ -3,6 +3,11 @@
 2) V : Video (Means Homework Ques, no Concept/ Theory)
 3) W : Week
 4) Interview : Means this topic/ Question has been asked many times in interviews
+5) QAF : Questions Added in future after completing the entire course. So, solution to these questions are linked from various other sources (YouTube, LeetCode Solution sections etc).
+         I might save a question bcz:
+            1)It's implementing an already did pattern in a new way that i could not think.
+            2)It has a new pattern. 
+                  etc...
 
 /***********************Interesting Codes************************************************/
 This Folder is not a Part of the DSA Course but contains trivial coding things that are sometimes interesting and sometimes boring as F*** but if not taken care of can lead to
@@ -115,8 +120,12 @@ a lot of time being wasted wondering why the code is not working
             2) Division of Two Numbers Using BS
             3) Find the odd appearing element in O(Log n) time [https://www.geeksforgeeks.org/find-the-element-that-odd-number-of-times-in-olog-n-time/]
       L58 : Week 4 Connect Class
+            0) Find Minimum in Rotated Sorted Array [QAF] [LeetCode : https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/]
+                  - It can be considered a Pre-req to below two questions
+                  - Ref for soln: https://youtu.be/Jin6vO0MdzY?feature=shared
             1) Find Pivot Element in Rotated Array
             2) Search in Rotated Sorted Array [LeetCode : https://leetcode.com/problems/search-in-rotated-sorted-array/description/]
+            3) Search in Rotated Sorted Array II [LeetCode : https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/]
       V59-60_HWQues :
             1) Q 59 : K-Diff Pairs In An Array[LeetCode : https://leetcode.com/problems/k-diff-pairs-in-an-array/submissions/]
             2) Q 60 : Find K Closest Elements [LeetCode : https://leetcode.com/problems/find-k-closest-elements/]
@@ -513,6 +522,12 @@ a lot of time being wasted wondering why the code is not working
             5)V190_5 : Minimum Difference in Sums After Removal of Elements [LeetCode : https://leetcode.com/problems/minimum-difference-in-sums-after-removal-of-elements/description/]
             6)V190_6 : Minimum Number of Refueling Stops[LeetCode : https://leetcode.com/problems/minimum-number-of-refueling-stops/description/]
             7)V190_7 : Sliding Window Maximum [LeetCode : https://leetcode.com/problems/sliding-window-maximum/description/]
+
+      More Questions [QAF Questions]
+            1)Kth Smallest Element in a Sorted Matrix [LeetCode : https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/]
+                  (i)Somewhat similar to "L189 : 1)Merge K Sorted Arrays"
+                  (ii)3 ways to solve: a)Max heap b)Min Heap 3)Binary Search 
+                  (iii)Ref for solution: https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/solutions/1322101/c-java-python-maxheap-minheap-binary-search-picture-explain-clean-concise
                   
          
 /**********************Week 15**************************************/
