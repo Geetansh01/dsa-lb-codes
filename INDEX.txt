@@ -137,6 +137,12 @@ a lot of time being wasted wondering why the code is not working
             4) Q 65 : EKO SPOJ [SPOJ : https://www.spoj.com/problems/EKO/cstart=80]
             5) Q 66 : PRATA SPOJ[SPOJ : https://www.spoj.com/problems/PRATA/]
 
+      More Questions [QAF Questions]
+      1)Find K Closest Elements [LeetCode : https://leetcode.com/problems/find-k-closest-elements/]
+            - Done Before [See "V59-60_HWQues: 2) Q 60"]
+            - Putting it in QAF because i found a new way to apply BS. 
+            - New pattern/ way to apply BS: We will directly search for a window in the array [Rather than a value like in the usual BS]
+
 
 /*******************************************Week 5***************************************/
       L67 : 1) How to take input in character arrays (or c style string)
