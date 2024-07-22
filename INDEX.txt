@@ -534,6 +534,9 @@ a lot of time being wasted wondering why the code is not working
                   (i)Somewhat similar to "L189 : 1)Merge K Sorted Arrays"
                   (ii)3 ways to solve: a)Max heap b)Min Heap 3)Binary Search 
                   (iii)Ref for solution: https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/solutions/1322101/c-java-python-maxheap-minheap-binary-search-picture-explain-clean-concise
+            2)Maximum Skill 2 [GFG : https://practice.geeksforgeeks.org/contest/adobe-gensolve-round-1-set-a/problems]
+                  (i) Main New Pattern : Double sorting (std::sort + Heap)
+                  (ii) The link is to the contest, click on the problem from there. [Problem also in "2_Ques_MaximumSkill2.pdf"]
                   
          
 /**********************Week 15**************************************/
