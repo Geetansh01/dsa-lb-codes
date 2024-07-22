@@ -294,7 +294,6 @@ a lot of time being wasted wondering why the code is not working
             8)V121 : Beautiful Arrangement [LeetCode : https://leetcode.com/problems/beautiful-arrangement/description/]
             9)V122 : Distribute Repeating Integers [LeetCode : https://leetcode.com/problems/distribute-repeating-integers/description/]
 
-
 /**********************Week 8**************************************/
       L136 : LL (using class ofcourse)
              1)Intro and Printing SLL
@@ -620,6 +619,13 @@ a lot of time being wasted wondering why the code is not working
       LImaginaryW16 : More DP Questions & Patterns
             1)Q1 : Matrix Chain Multiplication [RE Pattern : P/MI or MCM Pattern] [Coding Ninjas : https://www.codingninjas.com/studio/problems/matrix-chain-multiplication_624880]
             2)Q2 : Unbounded Knapsack/ Knapsack with Duplicate Items [GFG : https://www.geeksforgeeks.org/problems/knapsack-with-duplicate-items4201/1]
+
+      QAF Questions
+            1)Partition to K Equal Sum Subsets [LeetCode : https://leetcode.com/problems/partition-to-k-equal-sum-subsets/description/]
+                  (i) Two ways : a) DP + Bitmasking
+                                 b) Backtracking (Kind of Double Recursion, bit off than usual)
+                  Solutions saved locally!
+
 
 /**********************Week 17**************************************/
       L201: 1) Graphs Intro
