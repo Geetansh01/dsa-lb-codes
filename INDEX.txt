@@ -769,7 +769,7 @@ a lot of time being wasted wondering why the code is not working
             1)Get All words given a "prefix" [L193]
             2)Q 70 : Valid Anagram (Do it using Hashmaps)
 
-/******Additional Algorithms ************/
+/****** Additional Algorithms ************/
 Note: 1) Done After the completion of simple DSA course
       2) Some of these algos fall under CP 
       3) PN : Page Number from Notebook for additional DSA algos
@@ -778,6 +778,22 @@ Note: 1) Done After the completion of simple DSA course
             1)Ref : " https://cp-algorithms.com/string/manacher.html#manachers-algorithm-finding-all-sub-palindromes-in-on" 
             2)Ques : L68 : 5)Palindromic Substrings
             3)Also in Algos Notebook
+      
+      2)Line Sweep Algorithm
+            1)Ref: " https://leetcode.com/discuss/study-guide/2166045/line-sweep-algorithms "
+            2)If need be, also see in "Competitive Programmer’s Handbook"
+            
+            Some Basic Questions (From the "Ref" above, Do more if you want from there):
+            1)Using Line Sweep      
+                  1)Q1 Maximum Population Year [LeetCode : https://leetcode.com/problems/maximum-population-year/description/]
+                  2)Q2 Points That Intersect With Cars [LeetCode : https://leetcode.com/problems/points-that-intersect-with-cars/description/]
+                  3)Q3 Meeting Rooms II [LintCode : https://www.lintcode.com/problem/919/description]
+                        (i) Can also be done using minHeap
+                        --->Code saved locally of minHeap Approach
+
+            2)Using Range Addition
+                  (i) It is a way to do constant time range add operation on an array. Ref: " https://www.geeksforgeeks.org/constant-time-range-add-operation-array/ "
+                  1)Q1 Range Addition [LintCode: https://www.lintcode.com/problem/903/] [LeetCode: https://leetcode.com/problems/range-addition/]
 
 
 
