@@ -562,6 +562,12 @@ a lot of time being wasted wondering why the code is not working
             8)V193_8 : Camelcase Matching [LeetCode : https://leetcode.com/problems/camelcase-matching/description/]
             9)V193_9 : Palindrome Pairs [LeetCode : https://leetcode.com/problems/palindrome-pairs/description/]
 
+      QAF Questions
+            1)Subarrays with equal 1s and 0s [GFG : https://www.geeksforgeeks.org/problems/count-subarrays-with-equal-number-of-1s-and-0s-1587115620/1]
+                  (i) We can use a HashMap to do this in TC: O(n)
+                  (ii) This concept is used in many CP problems too!
+                  (iii) Ref: https://www.educative.io/answers/how-to-count-the-subarrays-with-an-equal-number-of-0s-and-1s
+
 /**********************Week 16**************************************/
       L194 : 1)DP intro
              2)Fibonacci Number [LeetCode : https://leetcode.com/problems/fibonacci-number/description/]
