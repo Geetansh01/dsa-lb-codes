@@ -562,11 +562,14 @@ a lot of time being wasted wondering why the code is not working
             8)V193_8 : Camelcase Matching [LeetCode : https://leetcode.com/problems/camelcase-matching/description/]
             9)V193_9 : Palindrome Pairs [LeetCode : https://leetcode.com/problems/palindrome-pairs/description/]
 
-      QAF Questions
+      QAF Questions Week15
             1)Subarrays with equal 1s and 0s [GFG : https://www.geeksforgeeks.org/problems/count-subarrays-with-equal-number-of-1s-and-0s-1587115620/1]
                   (i) We can use a HashMap to do this in TC: O(n)
                   (ii) This concept is used in many CP problems too!
                   (iii) Ref: https://www.educative.io/answers/how-to-count-the-subarrays-with-an-equal-number-of-0s-and-1s
+            2)Subarray Sum Equals K [LeetCode : https://leetcode.com/problems/subarray-sum-equals-k/description/]
+                  (i) Just a "medium" tagged question which is implementation of "QAF Questions Week15: 1)Subarrays with equal 1s and 0s"
+                  --->Code Not Saved Locally!
 
 /**********************Week 16**************************************/
       L194 : 1)DP intro
@@ -626,12 +629,16 @@ a lot of time being wasted wondering why the code is not working
             1)Q1 : Matrix Chain Multiplication [RE Pattern : P/MI or MCM Pattern] [Coding Ninjas : https://www.codingninjas.com/studio/problems/matrix-chain-multiplication_624880]
             2)Q2 : Unbounded Knapsack/ Knapsack with Duplicate Items [GFG : https://www.geeksforgeeks.org/problems/knapsack-with-duplicate-items4201/1]
 
-      QAF Questions
+      QAF Questions Week16
             1)Partition to K Equal Sum Subsets [LeetCode : https://leetcode.com/problems/partition-to-k-equal-sum-subsets/description/]
                   (i) Two ways : a) DP + Bitmasking
                                  b) Backtracking (Kind of Double Recursion, bit off than usual)
                   Solutions saved locally!
-
+            2)01 Matrix
+                  (i) Two ways : a) Multi-Source BFS (Just like "L205 : 4)Rotting Oranges")
+                                 b) DP (Main thing is a different way to define the subproblem. Then Recursive soln follows, then DP)
+                                    Ref: "https://leetcode.com/problems/01-matrix/solutions/1369741/c-java-python-bfs-dp-solutions-with-picture-clean-concise-o-1-space"
+                                    ---> Top Down solution Saved Locally (See above "Ref" for Bottom Up solution)
 
 /**********************Week 17**************************************/
       L201: 1) Graphs Intro
