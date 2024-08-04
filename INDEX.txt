@@ -634,11 +634,19 @@ a lot of time being wasted wondering why the code is not working
                   (i) Two ways : a) DP + Bitmasking
                                  b) Backtracking (Kind of Double Recursion, bit off than usual)
                   Solutions saved locally!
-            2)01 Matrix
+            2)01 Matrix [LeetCode : https://leetcode.com/problems/01-matrix/description/]
                   (i) Two ways : a) Multi-Source BFS (Just like "L205 : 4)Rotting Oranges")
                                  b) DP (Main thing is a different way to define the subproblem. Then Recursive soln follows, then DP)
                                     Ref: "https://leetcode.com/problems/01-matrix/solutions/1369741/c-java-python-bfs-dp-solutions-with-picture-clean-concise-o-1-space"
                                     ---> Top Down solution Saved Locally (See above "Ref" for Bottom Up solution)
+            3)Total Appeal of A String [LeetCode : https://leetcode.com/problems/total-appeal-of-a-string/description/]
+                  (i) Two ways : a) Observation (Ref: LeetCode Hints of the problem)
+                                 b) DP (Ref: https://leetcode.com/problems/total-appeal-of-a-string/solutions/1996300/python3-o-n-o-1-detail-for-beginners)
+                                    (i) DP in the sense that we would solve such that "solution of current problem would depend on the solution of a smaller subproblem"
+                                    (ii) DP method pe ane se pehle do method "a) Observation"
+                                 c) Combinatorics
+
+                                    ---> Code saved locally
 
 /**********************Week 17**************************************/
       L201: 1) Graphs Intro
