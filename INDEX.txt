@@ -734,7 +734,12 @@ a lot of time being wasted wondering why the code is not working
                   ----> This Question also belongs to 🟥Optimized Sliding Window category as we used a HashMap too!
             5)Binary Subarrays With Sum [https://leetcode.com/problems/binary-subarrays-with-sum/description/]
 
-            6)More Slidin Window Based Ques : https://leetcode.com/discuss/general-discussion/1122776/summary-of-sliding-window-patterns-for-subarray-substring
+            6)More Sliding Window Based Ques : https://leetcode.com/discuss/general-discussion/1122776/summary-of-sliding-window-patterns-for-subarray-substring
+
+      More Questions [QAF Questions]
+      1)Count Substrings That Satisfy K-Constraint II [LeetCode : https://leetcode.com/problems/count-substrings-that-satisfy-k-constraint-ii/description/]
+                  (i) Hints: see saved code
+                  (ii)Advanced use of Sliding window (SW): Double SW used here (Simple SW + PrefixSum using SW)
 
 /*******Bonus Session - BackTracking Questions*********/
       L212:
