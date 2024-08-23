@@ -648,6 +648,26 @@ a lot of time being wasted wondering why the code is not working
 
                                     ---> Code saved locally
 
+            Digit DP [Another type of DP questions]
+                  1)Introduction :
+                        Digit DP can be used to solve the following types of problems: 
+                              1)Type 1 
+                              Find the count of all integers 'X' in the range [0, R] such that 'X' satisfies a given binary function f() (i.e f(X)=true ). Here, The function f(X) represents a specific property, say P related to the digits of the integer 'X'. 
+
+                              f(X) = true ; when X satisfies P 
+                              f(X) = false; otherwise 
+
+                              2)Type 2 
+                              Find the count of all integers 'X' in the range [L, R] such that 'X' satisfies a given binary function f() (i.e f(X)=true ). 
+                              Type 2 is solved automatically on solving Type 1.
+
+                  2)Ref (Kartik Arora Yt, This is the full playlist, watch the 1st video for Introduction): https://youtube.com/playlist?list=PLb3g_Z8nEv1hB69JL9K7KfEyK8iQNj9nX&si=doAPabRojHi5m51X
+                  
+                  3)Questions:
+                        1)Digit Sum [SPOJ : https://www.spoj.com/problems/PR003004/]
+                        2)Find the Largest Palindrome Divisible by K [LeetCode : https://leetcode.com/problems/find-the-largest-palindrome-divisible-by-k/description/]
+
+
 /**********************Week 17**************************************/
       L201: 1) Graphs Intro
             2) Storing Graph using Adjacency Matrix
