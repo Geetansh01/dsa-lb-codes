@@ -841,6 +841,12 @@ Note: 1) Done After the completion of simple DSA course
                   (i) It is a way to do constant time range add operation on an array. Ref: " https://www.geeksforgeeks.org/constant-time-range-add-operation-array/ "
                   1)Q1 Range Addition [LintCode: https://www.lintcode.com/problem/903/] [LeetCode: https://leetcode.com/problems/range-addition/]
 
+            3)Overlapping Interval problems 
+                  (i) These are some problems on LeetCode that have similar solution pattern (this pattern is not exactly Line sweep, but somewhat similar)
+                  1) Q1_Merge Intervals [LeetCode : https://leetcode.com/problems/merge-intervals/description/]
+                  2) Q2_Non-overlapping Intervals [LeetCode : https://leetcode.com/problems/non-overlapping-intervals/description/]
+                  3) Q3_Minimum Number of Arrows to Burst Balloons [LeetCode : https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/]
+
 
 
             
