@@ -725,6 +725,9 @@ a lot of time being wasted wondering why the code is not working
       3)Fractional Knapsack [GFG : https://www.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1]
       4)N meetings in one room [GFG : https://www.geeksforgeeks.org/problems/n-meetings-in-one-room-1587115620/1]
 
+      More Questions [QAF Questions]
+      1)Task Scheduler [LeetCode : https://leetcode.com/problems/task-scheduler/description/]
+
 /*******Bonus Session - Bit Manipulation**********/
       L210:
       🟥 NOTE : All of these bit manipulations are for { (+)ve signed int } stored in memory
