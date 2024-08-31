@@ -536,7 +536,9 @@ a lot of time being wasted wondering why the code is not working
             2)Maximum Skill 2 [GFG : https://practice.geeksforgeeks.org/contest/adobe-gensolve-round-1-set-a/problems]
                   (i) Main New Pattern : Double sorting (std::sort + Heap)
                   (ii) The link is to the contest, click on the problem from there. [Problem also in "2_Ques_MaximumSkill2.pdf"]
-                  
+            3)Find K Pairs with Smallest Sums [Leetcode : https://leetcode.com/problems/find-k-pairs-with-smallest-sums/description/]
+                  (i)Can be done using pattern of "L189 : 1)Merge K Sorted Arrays"
+                  (ii)See saved code for all different ways.                
          
 /**********************Week 15**************************************/
       [Local saved vids are mostly unusable from here, but Numbering can still be followed so continuing that]
