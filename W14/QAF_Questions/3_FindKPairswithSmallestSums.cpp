@@ -45,7 +45,8 @@ vector<vector<int>> kSmallestPairs(vector<int>& A, vector<int>& B, int k) {
     //Yes, below syntax to initialise the minH is a bit tricky  :p. Ask chatGpt to explain it. 
     //Basically I needed A[] and B[] in the "Compare" class to be able to find the sum as i am storing indexes in "minH" ("Info" object carries the indexes from A[] and B[])
     //Want to avoid it? Store the sum itself in the minH along with the indexes like : {sum, {index from A[], index from B[]}}. Then inside the Compare class, use the "sum" for comparison
-    priority_queue<Info, vector<Info>, Compare> minH (Compare(A, B)); 
+    priority_queue<Info, vector<Info>, Compare> minH ((Compare(A, B))); //Note the extra brackets around "Compare(A, B)", these are IMPORTANT (Otherwise U might be dealing with strange error msgs :p). 
+    // These help clarify to the compiler that you are making an object of class "Compare" rather than calling a function! (Src: ChatGPT, Topic: Most vexing parse in C++)
     map<p, bool> visited; 
     
     Info temp(0, 0);

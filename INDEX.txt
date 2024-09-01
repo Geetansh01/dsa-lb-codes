@@ -633,7 +633,7 @@ a lot of time being wasted wondering why the code is not working
 
       QAF Questions Week16
             1)Partition to K Equal Sum Subsets [LeetCode : https://leetcode.com/problems/partition-to-k-equal-sum-subsets/description/]
-                  (i) Two ways : a) DP + Bitmasking
+                  (i) Two ways : a) DP + Bitmasking (Also called Bitmask DP)
                                  b) Backtracking (Kind of Double Recursion, bit off than usual)
                   Solutions saved locally!
             2)01 Matrix [LeetCode : https://leetcode.com/problems/01-matrix/description/]
@@ -649,6 +649,8 @@ a lot of time being wasted wondering why the code is not working
                                  c) Combinatorics
 
                                     ---> Code saved locally
+            4)Select Cells in Grid With Maximum Score [LeetCode : https://leetcode.com/problems/select-cells-in-grid-with-maximum-score/description/]
+                  (i) Pattern: Bitmask DP (Code not saved locally)
 
             Digit DP [Another type of DP questions]
                   1)Introduction :
